@@ -1,5 +1,0 @@
-list = {
-     "milk",
-     "juice",
-     "oat",
-}
