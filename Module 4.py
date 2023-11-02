@@ -15,33 +15,33 @@ while True:
     print(f"{inches}inches is equal to {centimeters}centimeters")
 
 #Task3
-# Initialize empty lists to store the numbers
+
 numbers = []
 
-# Prompt the user to enter numbers until they enter an empty string
+
 while True:
     user_input = input("Enter a number (or press Enter to quit): ")
 
-    # Check if the input is an empty string
+   
     if user_input == "":
         break
 
     try:
-        # Try to convert the input to a float and add it to the list
+       
         number = float(user_input)
         numbers.append(number)
     except ValueError:
         print("Invalid input. Please enter a valid number.")
 
-# Check if any numbers were entered
+
 if len(numbers) == 0:
     print("No numbers entered.")
 else:
-    # Find the smallest and largest numbers
+    
     smallest = min(numbers)
     largest = max(numbers)
 
-    # Print the results
+   
     print("Smallest number:", smallest)
     print("Largest number:", largest)
 
